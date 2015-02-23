@@ -18,7 +18,7 @@ namespace Mooka.WinPhone
             SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
 
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new Mooka.App());
+            LoadApplication(new Core.App());
         }
     }
 }

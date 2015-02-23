@@ -159,8 +159,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Mooka\Mooka.csproj">
-      <Name>Mooka</Name>
+    <ProjectReference Include="..\Mooka\Mooka.Core.csproj">
+      <Name>Mooka.Core</Name>
+      <Project>{FFC49B13-4097-4C52-AD7C-82E0841E0A3C}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
