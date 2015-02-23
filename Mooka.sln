@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mooka.Core", "Mooka\Mooka\Mooka.Core.csproj", "{FFC49B13-4097-4C52-AD7C-82E0841E0A3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mooka.Core", "Mooka\Mooka.Core\Mooka.Core.csproj", "{FFC49B13-4097-4C52-AD7C-82E0841E0A3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mooka.iOS", "Mooka\Mooka.iOS\Mooka.iOS.csproj", "{730EA23A-DE3C-4119-8074-598C71500390}"
 EndProject
@@ -11,7 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mooka.Droid", "Mooka\Mooka.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mooka.WinPhone", "Mooka\Mooka.WinPhone\Mooka.WinPhone.csproj", "{C77212DC-D1B7-4176-9634-11878F5BCB10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mooka.Core.Business", "Mooka.Core.Business\Mooka.Core.Business.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mooka.Core.Business", "Mooka\Mooka.Core.Business\Mooka.Core.Business.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D39F2D42-0CD4-4135-A001-07D9C3525478}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
