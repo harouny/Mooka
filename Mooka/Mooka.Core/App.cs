@@ -1,4 +1,5 @@
-﻿using Mooka.Core.Views.Pages;
+﻿using Mooka.Core.Business.Services;
+using Mooka.Core.Views.Pages;
 using Xamarin.Forms;
 
 namespace Mooka.Core
@@ -8,7 +9,8 @@ namespace Mooka.Core
         public App()
         {
             // The root page of your application
-            MainPage = new Home();
+            DependencyService.Register<UserProfilesService>();
+            MainPage = new NavigationPage(new Profiles());
         }
 
         protected override void OnStart()
